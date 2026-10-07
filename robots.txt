@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://etelcon.gestoroperativo.dpdns.org/sitemap.xml
