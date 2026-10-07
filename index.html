@@ -34,6 +34,46 @@
 
 </style>
   <meta name="generator" content="ETELCON static site" />
+
+<style>
+  .brand{
+    display:flex !important;
+    align-items:center !important;
+    justify-content:flex-start !important;
+    width:280px !important;
+    height:82px !important;
+    flex:0 0 280px !important;
+  }
+  .brand .site-logo{
+    display:block !important;
+    height:74px !important;
+    width:auto !important;
+    max-width:270px !important;
+    object-fit:contain !important;
+  }
+  .footer-brand .footer-logo{
+    display:block !important;
+    width:260px !important;
+    height:auto !important;
+    max-width:100% !important;
+    object-fit:contain !important;
+    margin-bottom:12px !important;
+  }
+  @media(max-width:768px){
+    .brand{
+      width:185px !important;
+      height:64px !important;
+      flex-basis:185px !important;
+    }
+    .brand .site-logo{
+      height:56px !important;
+      max-width:180px !important;
+    }
+    .footer-brand .footer-logo{
+      width:190px !important;
+    }
+  }
+</style>
 </head>
 <body>
   <a class="skip-link" href="#main">Saltar al contenido</a>
@@ -41,25 +81,8 @@
   <header class="site-header" id="inicio">
     <nav class="nav container" aria-label="Navegación principal">
       <a href="#inicio" class="brand" aria-label="ETELCON inicio">
-        <svg class="etelcon-logo etelcon-logo-header" viewBox="0 0 360 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ETELCON Ingeniería y Construcción">
-  <defs>
-    <linearGradient id="etelBlueH" x1="0" x2="1"><stop stop-color="#062f5b"/><stop offset="1" stop-color="#0879c9"/></linearGradient>
-    <linearGradient id="etelGrayH" x1="0" x2="1"><stop stop-color="#b9c0c8"/><stop offset="1" stop-color="#626a74"/></linearGradient>
-  </defs>
-  <g transform="translate(3 4)">
-    <path d="M5 60h70M18 52l14-16 13 10 16-24 15 11" fill="none" stroke="#0b5f9b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M20 66V43h17v23M42 66V26h19v40M65 66V38h16v28" fill="none" stroke="#073f73" stroke-width="5"/>
-    <circle cx="84" cy="29" r="12" fill="#ffb000"/>
-    <path d="M83 44l15 22h-22z" fill="#0a74b8"/>
-    <path d="M21 18h22l7 5-7 5H21l-7-5z" fill="#073f73"/>
-    <circle cx="18" cy="23" r="4" fill="#fff" stroke="#073f73" stroke-width="2"/>
-  </g>
-  <text x="112" y="53" font-family="Arial,Helvetica,sans-serif" font-size="43" font-weight="900" letter-spacing="-2" fill="url(#etelBlueH)">ETEL</text>
-  <text x="213" y="53" font-family="Arial,Helvetica,sans-serif" font-size="43" font-weight="900" letter-spacing="-2" fill="url(#etelGrayH)">CON</text>
-  <line x1="112" y1="68" x2="136" y2="68" stroke="#ffb000" stroke-width="3"/>
-  <text x="143" y="73" font-family="Arial,Helvetica,sans-serif" font-size="12.5" font-weight="700" letter-spacing="2.1" fill="#062f5b">INGENIERÍA Y CONSTRUCCIÓN</text>
-</svg>
-      </a>
+  <img src="assets/logo-etelcon.png" alt="ETELCON Ingeniería y Construcción" class="site-logo">
+</a>
       <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Abrir menú">
         <span></span><span></span><span></span>
       </button>
@@ -357,24 +380,10 @@
 
   <footer class="footer">
     <div class="container footer-grid">
-      <div class="footer-brand"><svg class="etelcon-logo etelcon-logo-footer" viewBox="0 0 360 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ETELCON Ingeniería y Construcción">
-  <defs>
-    <linearGradient id="etelBlueF" x1="0" x2="1"><stop stop-color="#6dc8ff"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
-    <linearGradient id="etelGrayF" x1="0" x2="1"><stop stop-color="#e7edf3"/><stop offset="1" stop-color="#aab5c1"/></linearGradient>
-  </defs>
-  <g transform="translate(3 4)">
-    <path d="M5 60h70M18 52l14-16 13 10 16-24 15 11" fill="none" stroke="#6dc8ff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M20 66V43h17v23M42 66V26h19v40M65 66V38h16v28" fill="none" stroke="#bfe7ff" stroke-width="5"/>
-    <circle cx="84" cy="29" r="12" fill="#ffb000"/>
-    <path d="M83 44l15 22h-22z" fill="#1aa2e8"/>
-    <path d="M21 18h22l7 5-7 5H21l-7-5z" fill="#bfe7ff"/>
-    <circle cx="18" cy="23" r="4" fill="#061a31" stroke="#bfe7ff" stroke-width="2"/>
-  </g>
-  <text x="112" y="53" font-family="Arial,Helvetica,sans-serif" font-size="43" font-weight="900" letter-spacing="-2" fill="url(#etelBlueF)">ETEL</text>
-  <text x="213" y="53" font-family="Arial,Helvetica,sans-serif" font-size="43" font-weight="900" letter-spacing="-2" fill="url(#etelGrayF)">CON</text>
-  <line x1="112" y1="68" x2="136" y2="68" stroke="#ffb000" stroke-width="3"/>
-  <text x="143" y="73" font-family="Arial,Helvetica,sans-serif" font-size="12.5" font-weight="700" letter-spacing="2.1" fill="#dcebf6">INGENIERÍA Y CONSTRUCCIÓN</text>
-</svg><p>Innovación · Integración · Confiabilidad</p></div>
+      <div class="footer-brand">
+  <img src="assets/logo-etelcon.png" alt="ETELCON Ingeniería y Construcción" class="footer-logo">
+  <p>Innovación · Integración · Confiabilidad</p>
+</div>
       <div><strong>Servicios</strong><a href="#seguridad">Seguridad electrónica</a><a href="#energia">Energía renovable</a><a href="#arquitectura">Arquitectura</a></div>
       <div><strong>Contacto</strong><a href="mailto:etelcon.inge07@gmail.com">etelcon.inge07@gmail.com</a><a href="https://wa.me/51987896438" target="_blank" rel="noopener">Joel: 987 896 438</a><a href="https://wa.me/51982280398" target="_blank" rel="noopener">Junnior: 982 280 398</a></div>
       <div><strong>Documentos</strong><a href="mailto:etelcon.inge07@gmail.com?subject=Solicitud%20de%20brochure%20ETELCON">Solicitar brochure</a><a href="#contacto">Solicitar propuesta</a></div>
